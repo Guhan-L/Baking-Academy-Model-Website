@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Crème Atelier — India's most premium baking academy. Master the art of patisserie, cake design, artisan bread, and fine desserts with world-class instructors." />
+  <meta name="keywords" content="baking academy, cake design, patisserie, baking courses India, premium baking school" />
+  <meta property="og:title" content="Crème Atelier | Premium Baking Academy" />
+  <meta property="og:description" content="Where passion meets patisserie. Join India's most luxurious baking academy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200" />
+  <title>Crème Atelier | Premium Baking Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&family=Cinzel:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ LOADER ═══════════════════════════════════════ -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader-bg"></div>
+    <div class="loader-particles" id="loaderParticles"></div>
+    <div class="loader-content">
+      <div class="loader-logo">
+        <span class="loader-icon">✦</span>
+        <span class="loader-brand">Crème Atelier</span>
+      </div>
+      <div class="loader-cake">
+        <div class="cake-tier cake-tier-3"></div>
+        <div class="cake-tier cake-tier-2"></div>
+        <div class="cake-tier cake-tier-1"></div>
+        <div class="cake-frosting">
+          <div class="frosting-drip d1"></div>
+          <div class="frosting-drip d2"></div>
+          <div class="frosting-drip d3"></div>
+        </div>
+        <div class="cake-candle">
+          <div class="candle-flame"></div>
+        </div>
+      </div>
+      <p class="loader-tagline">Crafting Edible Elegance</p>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════ NAVBAR ═══════════════════════════════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Crème Atelier Home">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Crème <em>Atelier</em></span>
+      </a>
+      <nav class="nav-links" id="navLinks" role="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Stories</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#enroll" class="nav-cta">Enroll Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1920&q=80" alt="Luxurious layered cake with gold leaf decoration" class="hero-bg-img" loading="eager" />
+      <div class="hero-overlay"></div>
+      <div class="hero-grain"></div>
+    </div>
+
+    <div class="hero-container">
+      <div class="hero-left" data-reveal>
+        <p class="hero-eyebrow"><span class="eyebrow-line"></span>Est. 2019 · Premium Culinary Studio</p>
+        <h1 class="hero-headline">
+          Where Passion<br />
+          <em>Meets Patisserie</em>
+        </h1>
+        <p class="hero-sub">Master the ancient art of baking through a modern lens. Curated programs for the discerning creator who demands nothing less than extraordinary.</p>
+        <div class="hero-actions">
+          <a href="#courses" class="btn btn-gold">Explore Courses</a>
+          <a href="#enroll" class="btn btn-outline">Enroll Now</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>2,400+</strong><span>Graduates</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><strong>18</strong><span>Courses</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><strong>9.8</strong><span>Rating</span></div>
+        </div>
+      </div>
+
+      <div class="hero-right" data-reveal-right>
+        <div class="hero-card-stack">
+          <div class="float-card fc1">
+            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=400&q=80" alt="Elegant macarons arrangement" loading="eager" />
+            <div class="float-card-label">Pastry Masterclass</div>
+          </div>
+          <div class="float-card fc2">
+            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=400&q=80" alt="Beautiful tiered wedding cake" loading="eager" />
+            <div class="float-card-label">Advanced Cake Design</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ MARQUEE ═══════════════════════════════════════ -->
+  <div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Artisan Baking &nbsp;✦&nbsp; Cake Architecture &nbsp;✦&nbsp; French Patisserie &nbsp;✦&nbsp; Sourdough Craft &nbsp;✦&nbsp; Sugar Artistry &nbsp;✦&nbsp; Chocolate Couverture &nbsp;✦&nbsp;</span>
+      <span aria-hidden="true">Artisan Baking &nbsp;✦&nbsp; Cake Architecture &nbsp;✦&nbsp; French Patisserie &nbsp;✦&nbsp; Sourdough Craft &nbsp;✦&nbsp; Sugar Artistry &nbsp;✦&nbsp; Chocolate Couverture &nbsp;✦&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════ ABOUT ═══════════════════════════════════════ -->
+  <section class="about section" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual" data-reveal>
+          <div class="about-img-wrap">
+            <img src="https://images.unsplash.com/photo-1607478900766-efe13248b125?auto=format&fit=crop&w=700&q=80" alt="Chef decorating a premium cake in the studio" loading="lazy" />
+            <div class="about-img-accent"></div>
+          </div>
+          <div class="about-badge-float">
+            <strong>5★</strong>
+            <span>Studio Experience</span>
+          </div>
+        </div>
+        <div class="about-content" data-reveal>
+          <p class="section-eyebrow"><span class="eyebrow-line"></span>Our Philosophy</p>
+          <h2 id="about-heading" class="section-title">Baking is an Art.<br /><em>We Teach You to Paint.</em></h2>
+          <p class="about-body">Crème Atelier was born from a singular belief: that every person holds the capacity for extraordinary creation. Our studio is a sanctuary where technique meets intuition, where flour and cream transform into living art.</p>
+          <p class="about-body">With instructors trained in Paris, Tokyo, and London, we bring the world's finest culinary traditions to your fingertips — in an intimate, inspiring, deeply personal environment.</p>
+          <ul class="about-pillars">
+            <li><span class="pillar-dot"></span>Small cohort classes (max 8 students)</li>
+            <li><span class="pillar-dot"></span>Professional-grade equipment & ingredients</li>
+            <li><span class="pillar-dot"></span>Internationally certified curriculum</li>
+            <li><span class="pillar-dot"></span>Lifetime alumni community access</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ COURSES ═══════════════════════════════════════ -->
+  <section class="courses section section-dark" id="courses" aria-labelledby="courses-heading">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-eyebrow"><span class="eyebrow-line"></span>Curated Programs</p>
+        <h2 id="courses-heading" class="section-title">Master Your <em>Craft</em></h2>
+        <p class="section-subtitle">Five meticulously designed programs, each a complete journey from foundation to mastery.</p>
+      </div>
+      <div class="courses-grid">
+
+        <article class="course-card" data-reveal>
+          <div class="course-img-wrap">
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80" alt="Beginner baking session with fresh bread" loading="lazy" />
+            <div class="course-tag">Beginner</div>
+          </div>
+          <div class="course-body">
+            <h3>Foundation Baking</h3>
+            <p>Master the essential science and soul of baking — from perfecting bread loaves to your first layer cake.</p>
+            <div class="course-meta">
+              <span>⏱ 8 Weeks</span>
+              <span>👩‍🍳 16 Sessions</span>
+            </div>
+            <div class="course-footer">
+              <span class="course-price">₹12,500</span>
+              <a href="#enroll" class="btn btn-gold-sm">Enroll</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card course-card-featured" data-reveal>
+          <div class="course-img-wrap">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=600&q=80" alt="Advanced multi-tier cake with intricate decoration" loading="lazy" />
+            <div class="course-tag">Signature</div>
+          </div>
+          <div class="course-body">
+            <h3>Advanced Cake Architecture</h3>
+            <p>Structural design, sugar florals, hand-painted fondant, and editorial cake composition for the serious artist.</p>
+            <div class="course-meta">
+              <span>⏱ 12 Weeks</span>
+              <span>👩‍🍳 24 Sessions</span>
+            </div>
+            <div class="course-footer">
+              <span class="course-price">₹28,000</span>
+              <a href="#enroll" class="btn btn-gold-sm">Enroll</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card" data-reveal>
+          <div class="course-img-wrap">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80" alt="French pastry selection including croissants and tarts" loading="lazy" />
+            <div class="course-tag">Intermediate</div>
+          </div>
+          <div class="course-body">
+            <h3>French Pastry Masterclass</h3>
+            <p>Croissants, tarts, éclairs, mille-feuille — the full canon of French viennoiserie and patisserie.</p>
+            <div class="course-meta">
+              <span>⏱ 10 Weeks</span>
+              <span>👩‍🍳 20 Sessions</span>
+            </div>
+            <div class="course-footer">
+              <span class="course-price">₹22,000</span>
+              <a href="#enroll" class="btn btn-gold-sm">Enroll</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card" data-reveal>
+          <div class="course-img-wrap">
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec" alt="Artisan sourdough bread loaves" loading="lazy" />
+            <div class="course-tag">Artisan</div>
+          </div>
+          <div class="course-body">
+            <h3>Artisan Bread & Sourdough</h3>
+            <p>The living art of fermentation. Build your own starter and craft breads that carry soul and story.</p>
+            <div class="course-meta">
+              <span>⏱ 6 Weeks</span>
+              <span>👩‍🍳 12 Sessions</span>
+            </div>
+            <div class="course-footer">
+              <span class="course-price">₹9,800</span>
+              <a href="#enroll" class="btn btn-gold-sm">Enroll</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="course-card" data-reveal>
+          <div class="course-img-wrap">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=600&q=80" alt="Elegant dessert plating workshop" loading="lazy" />
+            <div class="course-tag">Workshop</div>
+          </div>
+          <div class="course-body">
+            <h3>Fine Dessert Workshop</h3>
+            <p>Plated desserts, mousse cakes, mirror glazes, and restaurant-worthy presentations in a 2-day intensive.</p>
+            <div class="course-meta">
+              <span>⏱ 2 Days</span>
+              <span>👩‍🍳 Intensive</span>
+            </div>
+            <div class="course-footer">
+              <span class="course-price">₹7,500</span>
+              <a href="#enroll" class="btn btn-gold-sm">Enroll</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+<!-- ===== GALLERY SECTION ===== -->
+<section class="gallery section" id="gallery">
+
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-header">
+      <p class="section-eyebrow">
+        <span></span> Studio Portfolio
+      </p>
+
+      <h2 class="section-title">
+        Edible <em>Art</em>
+      </h2>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="gallery-grid">
+
+      <!-- Item -->
+      <div class="gallery-item gi-tall">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop" alt="Floral Cake Design">
+
+        <div class="gallery-overlay">
+          <span>Floral Cake Design</span>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1559622214-f8a9850965bb?q=80&w=1200&auto=format&fit=crop" alt="Macaron Tower">
+
+        <div class="gallery-overlay">
+          <span>Macaron Tower</span>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=1200&auto=format&fit=crop" alt="Chocolate Drip Art">
+
+        <div class="gallery-overlay">
+          <span>Chocolate Drip Art</span>
+        </div>
+      </div>
+
+      <!-- Wide -->
+      <div class="gallery-item gi-wide">
+        <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?q=80&w=1400&auto=format&fit=crop" alt="Studio Session">
+
+        <div class="gallery-overlay">
+          <span>Studio Session</span>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop" alt="Viennoiserie">
+
+        <div class="gallery-overlay">
+          <span>Viennoiserie</span>
+        </div>
+      </div>
+
+      <!-- Tall -->
+      <div class="gallery-item gi-tall">
+        <img src="https://images.unsplash.com/photo-1464306076886-da185f6a9d05?q=80&w=1200&auto=format&fit=crop" alt="Layer Cake">
+
+        <div class="gallery-overlay">
+          <span>Layer Cake</span>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?q=80&w=1200&auto=format&fit=crop" alt="Sugar Florals">
+
+        <div class="gallery-overlay">
+          <span>Sugar Florals</span>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=1200&auto=format&fit=crop" alt="Artisan Loaves">
+
+        <div class="gallery-overlay">
+          <span>Artisan Loaves</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- ═══════════════════════════════════════ TESTIMONIALS ═══════════════════════════════════════ -->
+  <section class="testimonials section section-dark" id="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-eyebrow"><span class="eyebrow-line"></span>Student Stories</p>
+        <h2 id="testimonials-heading" class="section-title">Lives Changed by <em>Flour & Fire</em></h2>
+      </div>
+
+      <div class="testimonials-slider-wrap" data-reveal>
+        <div class="testimonials-slider" id="testimonialsSlider">
+
+          <div class="testimonial-card">
+            <div class="tcard-quote">"</div>
+            <p class="tcard-text">Crème Atelier didn't just teach me to bake — they taught me to think like an artist. Three months after graduating, I launched my own patisserie. The foundation they gave me was unshakeable.</p>
+            <div class="tcard-author">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=100&q=80" alt="Priya Sharma, pastry chef graduate" loading="lazy" />
+              <div>
+                <strong>Priya Sharma</strong>
+                <span>Advanced Cake Design Graduate · Chennai</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="tcard-quote">"</div>
+            <p class="tcard-text">The French Pastry Masterclass was transformative. I'd attempted croissants a dozen times at home. Under Chef Meera's guidance, mine came out flawless on the very first session. Pure magic.</p>
+            <div class="tcard-author">
+              <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=100&q=80" alt="Aryan Mehta, pastry student" loading="lazy" />
+              <div>
+                <strong>Aryan Mehta</strong>
+                <span>French Pastry Graduate · Mumbai</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="tcard-quote">"</div>
+            <p class="tcard-text">As a mother of two, I was nervous returning to learning. The team made every single person feel seen, celebrated, and capable. My sourdough starter is now 8 months old and going strong!</p>
+            <div class="tcard-author">
+              <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=100&q=80" alt="Kavitha Nair, bread making student" loading="lazy" />
+              <div>
+                <strong>Kavitha Nair</strong>
+                <span>Artisan Bread Graduate · Bangalore</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="tcard-quote">"</div>
+            <p class="tcard-text">Worth every single rupee. The equipment, the ingredients, the mentorship — everything is world-class. I've attended workshops abroad that don't come close to the depth offered here.</p>
+            <div class="tcard-author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Rahul Iyer, workshop attendee" loading="lazy" />
+              <div>
+                <strong>Rahul Iyer</strong>
+                <span>Fine Dessert Workshop · Hyderabad</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="sliderPrev" aria-label="Previous testimonial">←</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="sliderNext" aria-label="Next testimonial">→</button>
+        </div>
+      </div>
+
+      <!-- Video Testimonial -->
+      <div class="video-testimonial" data-reveal>
+        <p class="section-eyebrow" style="text-align:center"><span class="eyebrow-line"></span>Watch Their Story</p>
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
+            title="Crème Atelier Student Testimonial Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+        <p class="video-caption">Replace this YouTube embed with your real testimonial video URL.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ ENROLL / PAYMENT ═══════════════════════════════════════ -->
+  <section class="enroll section" id="enroll" aria-labelledby="enroll-heading">
+    <div class="enroll-bg">
+      <img src="https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&w=1920&q=80" alt="Premium baking studio interior with warm lighting" loading="lazy" />
+      <div class="enroll-overlay"></div>
+    </div>
+    <div class="container enroll-container" data-reveal>
+      <p class="section-eyebrow light"><span class="eyebrow-line"></span>Reserve Your Seat</p>
+      <h2 id="enroll-heading" class="section-title light">Begin Your <em>Journey</em> Today</h2>
+      <p class="enroll-body">Seats are intentionally limited to 8 per cohort. The next batch begins September 2025. Secure your place now.</p>
+      <div class="payment-card">
+        <div class="payment-info">
+          <div class="payment-row">
+            <span>Batch Enrollment</span>
+            <strong>Flexible Plans Available</strong>
+          </div>
+          <div class="payment-row">
+            <span>Secure Payment</span>
+            <strong>Razorpay · UPI · Cards</strong>
+          </div>
+          <div class="payment-row">
+            <span>Cancellation</span>
+            <strong>7-Day Full Refund Policy</strong>
+          </div>
+        </div>
+        <button class="btn btn-gold btn-pay" id="razorpayBtn" aria-label="Pay and enroll via Razorpay">
+          <span>🔒</span> Secure Enrollment — Pay Now
+        </button>
+        <p class="payment-note">Powered by Razorpay · 256-bit SSL Encryption</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FAQ ═══════════════════════════════════════ -->
+  <section class="faq section section-dark" id="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-eyebrow"><span class="eyebrow-line"></span>Questions Answered</p>
+        <h2 id="faq-heading" class="section-title">Everything You <em>Want to Know</em></h2>
+      </div>
+      <div class="faq-list" data-reveal>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Do I need prior baking experience?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Not at all. Our Foundation Baking program is specifically designed for complete beginners. More advanced courses build progressively, and we offer a free skill assessment call to help you choose the right program.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">What equipment do I need to bring?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Nothing — the academy provides all professional-grade equipment including stand mixers, silicone mats, piping sets, and more. All premium ingredients are also included in your course fee.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Are classes available online?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Our in-studio experience is our primary format — the tactile, sensory nature of baking doesn't translate fully online. We do offer a select range of digital theory modules and pre-recorded masterclasses for enrolled students.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">Do you offer EMI or installment payments?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Yes. We offer 3-month and 6-month no-cost EMI through Razorpay for all major credit cards. Bank transfer installments can also be arranged — contact us to discuss your preferred plan.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">What certification do I receive upon completion?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Graduates receive a Crème Atelier Certificate of Mastery, recognized by partnering hotels, bakeries, and culinary institutions across India. We also assist with portfolio building and placement support.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">How small are the class sizes?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>We maintain a strict maximum of 8 students per cohort. This is non-negotiable — it ensures every student receives personal attention, adequate workspace, and direct mentoring from the chef instructor.</p></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CONTACT / REGISTRATION ═══════════════════════════════════════ -->
+  <section class="contact section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-reveal>
+          <p class="section-eyebrow"><span class="eyebrow-line"></span>Get In Touch</p>
+          <h2 id="contact-heading" class="section-title">Register Your <em>Interest</em></h2>
+          <p class="contact-body">Fill in your details and our admissions team will reach out within 24 hours to guide you through program selection, scheduling, and enrollment.</p>
+          <ul class="contact-details">
+            <li><span class="cd-icon">📍</span> 42, Rue de la Crème, Pondicherry — 605001</li>
+            <li><span class="cd-icon">📞</span> +91 98765 43210</li>
+            <li><span class="cd-icon">✉</span> hello@cremeatelier.in</li>
+            <li><span class="cd-icon">🕐</span> Mon–Sat · 9 AM – 7 PM</li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrap" data-reveal>
+          <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Full Name *</label>
+                <input type="text" id="fname" name="name" placeholder="Your full name" required autocomplete="name" />
+                <span class="form-err" id="fnameErr"></span>
+              </div>
+              <div class="form-group">
+                <label for="fphone">Phone Number *</label>
+                <input type="tel" id="fphone" name="phone" placeholder="+91 00000 00000" required autocomplete="tel" />
+                <span class="form-err" id="fphoneErr"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address *</label>
+              <input type="email" id="femail" name="email" placeholder="your@email.com" required autocomplete="email" />
+              <span class="form-err" id="femailErr"></span>
+            </div>
+            <div class="form-group">
+              <label for="fcourse">Course of Interest *</label>
+              <select id="fcourse" name="course" required>
+                <option value="" disabled selected>Select a program</option>
+                <option>Foundation Baking</option>
+                <option>Advanced Cake Architecture</option>
+                <option>French Pastry Masterclass</option>
+                <option>Artisan Bread & Sourdough</option>
+                <option>Fine Dessert Workshop</option>
+              </select>
+              <span class="form-err" id="fcourseErr"></span>
+            </div>
+            <div class="form-group">
+              <label for="fmsg">Message</label>
+              <textarea id="fmsg" name="message" rows="4" placeholder="Any questions or preferences..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold btn-full" id="submitBtn">Send Registration</button>
+            <div class="form-success" id="formSuccess" aria-live="polite">
+              <span class="success-icon">✦</span>
+              <strong>Registration Received!</strong>
+              <p>Our admissions team will contact you within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ MAP ═══════════════════════════════════════ -->
+  <section class="map-section" aria-label="Studio location map">
+    <div class="map-header" data-reveal>
+      <p class="section-eyebrow center"><span class="eyebrow-line"></span>Find Our Studio</p>
+    </div>
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.7!2d79.8083!3d11.9416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361dc4abcdefg!2sPondicherry!5e0!3m2!1sen!2sin!4v1"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Crème Atelier Studio Location in Pondicherry"
+      ></iframe>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo" aria-label="Crème Atelier Home">
+          <span class="logo-icon">✦</span>
+          <span class="logo-text">Crème <em>Atelier</em></span>
+        </a>
+        <p>Where passion meets patisserie. Crafting India's next generation of culinary artists since 2019.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="Pinterest">PT</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="#courses">Foundation Baking</a></li>
+          <li><a href="#courses">Advanced Cake Design</a></li>
+          <li><a href="#courses">French Pastry</a></li>
+          <li><a href="#courses">Artisan Bread</a></li>
+          <li><a href="#courses">Fine Dessert Workshop</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Academy</h4>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Alumni Stories</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Crème Atelier. All rights reserved. Crafted with ✦ precision.</p>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════ FLOATING BUTTONS ═══════════════════════════════════════ -->
+  <a
+    href="https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20your%20baking%20academy%20courses."
+    class="whatsapp-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M11.97 2C6.443 2 2 6.443 2 11.97c0 1.905.52 3.687 1.428 5.208L2 22l5.003-1.407A9.906 9.906 0 0 0 11.97 22C17.497 22 22 17.557 22 12.03 22 6.503 17.497 2 11.97 2zm0 18.064a8.094 8.094 0 0 1-4.134-1.137l-.296-.176-3.071.863.864-3.041-.194-.311A8.064 8.064 0 0 1 3.905 12.03c0-4.45 3.616-8.065 8.065-8.065 4.45 0 8.065 3.615 8.065 8.065 0 4.45-3.615 8.064-8.065 8.064z"/>
+    </svg>
+    <span class="whatsapp-label">Chat with Us</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
